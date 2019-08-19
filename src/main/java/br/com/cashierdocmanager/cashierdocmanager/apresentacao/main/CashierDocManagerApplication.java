@@ -1,4 +1,4 @@
-package br.com.cashierdocmanager.cashierdocmanager;
+package br.com.cashierdocmanager.cashierdocmanager.apresentacao.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
