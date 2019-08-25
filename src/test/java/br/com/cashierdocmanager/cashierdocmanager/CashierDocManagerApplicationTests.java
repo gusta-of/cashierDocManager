@@ -11,6 +11,7 @@ public class CashierDocManagerApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		
 	}
 
 }
