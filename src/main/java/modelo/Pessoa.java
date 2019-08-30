@@ -5,7 +5,8 @@ import javax.persistence.*;
 import java.util.Date;
 import java.util.Objects;
 
-@Entity(name = "tb_pessoa")
+@Entity
+@Table(name = "tb_pessoa")
 public class Pessoa {
 
     public Pessoa() {
