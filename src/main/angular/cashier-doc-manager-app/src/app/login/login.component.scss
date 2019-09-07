@@ -7,15 +7,18 @@
 }
 
 .card-login{
+    display: flex;
+    flex-direction: column;
     margin: 0;
     position: absolute;      
     top: 50%;    
     left: 40%;                     
     transform: translate(0, -50%);
     background: #f3f4f6;
-    height: 525px;
+    height: 325px;
     width: 25%;
     border-radius: 10px;
+    text-align: center;
 }
 
 .section-pai{
