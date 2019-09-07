@@ -1,0 +1,27 @@
+.card{
+    border: 0px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+
+}
+
+.card-login{
+    margin: 0;
+    position: absolute;      
+    top: 50%;    
+    left: 40%;                     
+    transform: translate(0, -50%);
+    background: #f3f4f6;
+    height: 525px;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.section-pai{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto 0 auto;
+}
