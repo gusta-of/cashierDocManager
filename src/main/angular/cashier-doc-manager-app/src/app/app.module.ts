@@ -7,11 +7,14 @@ import { LoginComponent } from './login/login.component';
 import {ButtonModule} from 'primeng/button';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { UsuariosModule } from './usuarios/usuarios.module';
+import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
+    MenuLateralComponent,
+    MenuLateralComponent
   ],
   imports: [
     BrowserModule,
