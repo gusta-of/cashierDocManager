@@ -10,7 +10,6 @@ import { UsuariosModule } from './usuarios/usuarios.module';
 import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
 import { CaixaModule } from './caixa/caixa.module';
 import {DataTableModule} from "primeng/primeng";
-import {TableModule, Table} from "primeng/table";
 
 
 @NgModule({
@@ -21,7 +20,6 @@ import {TableModule, Table} from "primeng/table";
     MenuLateralComponent,
   ],
   imports: [
-    
     BrowserModule,
     AccordionModule,
     AppRoutingModule,
@@ -29,11 +27,9 @@ import {TableModule, Table} from "primeng/table";
     BrowserAnimationsModule,
     UsuariosModule,
     CaixaModule,
-    DataTableModule,
-    TableModule
+    DataTableModule
   ],
   exports:[
-    TableModule,
     DataTableModule
   ],
   providers: [],
