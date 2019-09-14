@@ -5,4 +5,22 @@
     width: 20%;
     height: 100%;
     margin: 0 auto 0 auto;
+    background-color: #363232;
+}
+
+.ui-button-text .ui-clickable{
+    display: inline !important;
+    width: 100px !important;
+}
+
+.button{
+    width: 140px !important; 
+    height: 50px !important; 
+    background-color: #F16943;
+    display: inline;  
+    border-radius: 3px;
+    border: 0px;
+    margin: 0px;
+    color: antiquewhite;
+    align-content: center; 
 }
