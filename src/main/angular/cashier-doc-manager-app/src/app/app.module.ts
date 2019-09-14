@@ -9,22 +9,32 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { UsuariosModule } from './usuarios/usuarios.module';
 import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
 import { CaixaModule } from './caixa/caixa.module';
+import {DataTableModule} from "primeng/primeng";
+import {TableModule, Table} from "primeng/table";
+
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     MenuLateralComponent,
-    MenuLateralComponent
+    MenuLateralComponent,
   ],
   imports: [
+    
     BrowserModule,
     AccordionModule,
     AppRoutingModule,
     ButtonModule,
     BrowserAnimationsModule,
     UsuariosModule,
-    CaixaModule
+    CaixaModule,
+    DataTableModule,
+    TableModule
+  ],
+  exports:[
+    TableModule,
+    DataTableModule
   ],
   providers: [],
   bootstrap: [AppComponent],
