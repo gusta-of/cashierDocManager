@@ -6,6 +6,8 @@ import {DataTableModule} from "primeng/primeng";
 import {TableModule} from "primeng/table";
 import { MenuLateralCaixaComponent } from './menu-lateral-caixa/menu-lateral-caixa.component';
 import {ButtonModule} from 'primeng/button';
+import { ValoresCaixaComponent } from './valores-caixa/valores-caixa.component';
+import {InputTextModule} from 'primeng/inputtext';
 
 
 @NgModule({
@@ -13,13 +15,15 @@ import {ButtonModule} from 'primeng/button';
     CaixaComponent,
     GridCaixaComponent,
     MenuLateralCaixaComponent,
+    ValoresCaixaComponent,
     
   ],
   imports: [
     CommonModule,
     TableModule,
     DataTableModule,
-    ButtonModule
+    ButtonModule,
+    InputTextModule
   ],
   exports:[CaixaComponent]
 })
