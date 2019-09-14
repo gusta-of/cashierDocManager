@@ -1,7 +1,27 @@
 <div>
-     <p-dataTable>
-       <p-column>
-            
-        </p-column>
-     </p-dataTable>
+
+    <p-table [value]="lista" [paginator]="true" [rows]="10">
+
+                <ng-template pTemplate="header">
+
+                    <tr>
+
+                        <th>PRODUTO</th>
+                        <th>QUANTIDADE</th>
+                        <th>R$ TOTAL</th>
+
+                    </tr>
+                </ng-template>
+
+                <ng-template pTemplate="body" let-obj>
+
+                    <tr>
+                        <td>{{obj.produtoNome}}</td>
+                        <td>{{obj.quantidade}}</td>
+                        <td>{{obj.total}}</td>
+                    </tr>
+
+                </ng-template>
+
+            </p-table>
 </div>
