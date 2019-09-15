@@ -43,18 +43,15 @@
     .sidebar {
         overflow: hidden !important;
         width: 90px !important;
-        background-color: #003954;
+        background-color:#363232!important;
         height: 100% !important;
         min-height: calc(100vh - 73px);
     }
     
-    .nav-user{
-        width: 1%;
-       
-    }
+   
     .navbar-nav {
         font-size: 14px;
-        width: 69px!important;
+        width: 60px !important;
         display: -ms-flexbox !important;
         display: flex !important;
         -ms-flex-direction: column !important;
@@ -67,7 +64,7 @@
     .sidebar .nav-item .nav-link {
         text-align: center !important;
         padding: 0.75rem 0rem !important;
-        width: 69px !important;
+        width: 54px !important;
         color: #fff !important;
         display: grid !important;
     }
