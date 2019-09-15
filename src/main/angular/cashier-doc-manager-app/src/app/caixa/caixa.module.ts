@@ -18,7 +18,6 @@ import { MenuLateralComponent } from '../menu-lateral/menu-lateral.component';
     MenuLateralCaixaComponent,
     ValoresCaixaComponent,
     MenuLateralComponent
-    
   ],
   imports: [
     CommonModule,
@@ -27,6 +26,9 @@ import { MenuLateralComponent } from '../menu-lateral/menu-lateral.component';
     ButtonModule,
     InputTextModule
   ],
-  exports:[CaixaComponent]
+  exports:[
+    CaixaComponent,
+     MenuLateralCaixaComponent
+    ]
 })
 export class CaixaModule { }
