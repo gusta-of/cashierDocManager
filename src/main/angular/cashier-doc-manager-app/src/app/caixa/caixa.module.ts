@@ -32,7 +32,7 @@ export const CustomCurrencyMaskConfig: CurrencyMaskConfig = {
     GridCaixaComponent,
     MenuLateralCaixaComponent,
     ValoresCaixaComponent,
-    MenuSuperiorComponent
+    MenuSuperiorComponent,
     MenuLateralComponent
   ],
   imports: [
