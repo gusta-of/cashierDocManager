@@ -9,7 +9,7 @@ import { ButtonModule } from 'primeng/button';
 import { ValoresCaixaComponent } from './valores-caixa/valores-caixa.component';
 import { InputTextModule } from 'primeng/inputtext';
 import { MenuLateralComponent } from '../menu-lateral/menu-lateral.component';
-
+import {MatTableModule} from '@angular/material/table';
 import { MenuSuperiorComponent } from '../menu-superior/menu-superior.component';
 
 import { CurrencyMaskModule } from "ng2-currency-mask";
@@ -41,7 +41,8 @@ export const CustomCurrencyMaskConfig: CurrencyMaskConfig = {
     DataTableModule,
     ButtonModule,
     InputTextModule,
-    CurrencyMaskModule
+    CurrencyMaskModule,
+    MatTableModule
   ],
   exports: [
     CaixaComponent,
