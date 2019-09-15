@@ -9,6 +9,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { UsuariosModule } from './usuarios/usuarios.module';
 import { CaixaModule } from './caixa/caixa.module';
 import {DataTableModule} from "primeng/primeng";
+import { MenuSuperiorComponent } from './menu-superior/menu-superior.component';
 
 
 @NgModule({
