@@ -9,6 +9,7 @@ import {ButtonModule} from 'primeng/button';
 import { ValoresCaixaComponent } from './valores-caixa/valores-caixa.component';
 import {InputTextModule} from 'primeng/inputtext';
 import { MenuLateralComponent } from '../menu-lateral/menu-lateral.component';
+import { MenuSuperiorComponent } from '../menu-superior/menu-superior.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { MenuLateralComponent } from '../menu-lateral/menu-lateral.component';
     GridCaixaComponent,
     MenuLateralCaixaComponent,
     ValoresCaixaComponent,
-    MenuLateralComponent
+    MenuLateralComponent,
+    MenuSuperiorComponent
     
   ],
   imports: [

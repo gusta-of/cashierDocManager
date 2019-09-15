@@ -1,5 +1,7 @@
 @media (min-width: 768px) {
 
+
+
     .nav-item{}
     
         .sidebar {
@@ -47,9 +49,11 @@
     }
     
     .nav-user{
+        width: 1%;
        
     }
     .navbar-nav {
+        font-size: 14px;
         width: 69px!important;
         display: -ms-flexbox !important;
         display: flex !important;
