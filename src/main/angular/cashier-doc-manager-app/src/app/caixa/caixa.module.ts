@@ -8,6 +8,7 @@ import { MenuLateralCaixaComponent } from './menu-lateral-caixa/menu-lateral-cai
 import {ButtonModule} from 'primeng/button';
 import { ValoresCaixaComponent } from './valores-caixa/valores-caixa.component';
 import {InputTextModule} from 'primeng/inputtext';
+import { MenuLateralComponent } from '../menu-lateral/menu-lateral.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import {InputTextModule} from 'primeng/inputtext';
     GridCaixaComponent,
     MenuLateralCaixaComponent,
     ValoresCaixaComponent,
+    MenuLateralComponent
     
   ],
   imports: [
