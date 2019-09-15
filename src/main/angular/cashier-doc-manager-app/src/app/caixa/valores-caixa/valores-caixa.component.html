@@ -1,15 +1,46 @@
-<section class="form-row">
-    <div class="col-md-6 client-input">
-        <span class="ui-float-label">
-            <input id="float-input" type="text" size="60" pInputText>
-            <label for="float-input">Cliente:</label>
-        </span>
+<section>
+    <div class="d-flex justify-content-between">
+        <div class="col-sm-6">
+            <div class="d-flex justify-content-between p-2">
+                <div class="col-sm">
+                    <span>Juros:</span>
+                </div>
+                <div class="ui-inputgroup">
+                    <span class="ui-inputgroup-addon">R$</span>
+                    <input type="text" pInputText currencyMask placeholder="0,00">
+                </div>
+            </div>
+            <div class="d-flex justify-content-between p-2">
+                <div class="col-sm-6">
+                    <span>Acréscimos:</span>
+                </div>
+                <div class="ui-inputgroup">
+                    <span class="ui-inputgroup-addon">R$</span>
+                    <input type="text" pInputText currencyMask placeholder="0,00">
+                </div>
+            </div>
+            <div class="d-flex justify-content-between p-2">
+                <div class="col-sm-6">
+                    <span>Desconto:</span>
+                </div>
+                <div class="ui-inputgroup">
+                    <span class="ui-inputgroup-addon">R$</span>
+                    <input type="text" pInputText currencyMask placeholder="0,00">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="d-flex justify-content-between p-2">
+                <div class="col-sm-6">
+                    <span>Total:</span>
+                </div>
+                <div class="ui-inputgroup">
+                    <span class="ui-inputgroup-addon">R$</span>
+                    <input type="text" pInputText disabled="true" currencyMask placeholder="0,00">
+                </div>
+            </div>
+
+        </div>
     </div>
 
-    <div class="col-md-6 client-input">
-        <span class="ui-float-label">
-            <input id="float-input" type="text" size="60" pInputText>
-            <label for="float-input">Produto:</label>
-        </span>
-    </div>
 </section>
