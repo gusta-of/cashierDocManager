@@ -23,7 +23,7 @@ export class GridCaixaComponent implements OnInit {
 
     for (let index = 0; index < 200 ; index++) {
 
-      produtoModel.produtoNome = 'DIPIRONA' + '1 + 1';
+      produtoModel.produtoNome = 'DIPIRONA' + index;
 
       produtoModel.quantidade = 10 + 1;
   
