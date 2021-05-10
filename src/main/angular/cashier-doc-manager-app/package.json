@@ -30,7 +30,7 @@
     "content-disposition": "^0.5.2",
     "core-js": "^2.5.7",
     "font-awesome": "^4.7.0",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.21",
     "ng-block-ui": "^1.0.6",
     "ng2-currency-mask": "^5.3.1",
     "primeicons": "^1.0.0",
